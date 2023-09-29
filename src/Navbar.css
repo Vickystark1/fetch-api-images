@@ -1,0 +1,61 @@
+
+.navbar{
+    background-color: blueviolet;
+    margin: 0.3rem;
+    height: 4.5rem;
+}
+
+.navlink{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    background-color:white;
+    margin-left: 0.1rem;
+    height: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3rem;
+    padding: 0.2rem;
+    position:relative;
+    align-items: center;
+    border: 1 solid black;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+li{
+    margin-right: 0.2rem;
+}
+
+.navlist {
+    display: flex;
+    text-decoration: none;
+}
+
+p{
+    margin-left: 0.5rem;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}
+
+@media (max-width:760px){
+    a{
+        position: relative;
+        width: 100%;
+    }
+}
